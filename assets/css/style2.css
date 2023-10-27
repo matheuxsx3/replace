@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    background-color: rgb(108, 108, 206);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+
+}
