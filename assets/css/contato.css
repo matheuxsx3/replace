@@ -1,0 +1,104 @@
+body{
+    height: 80vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav {
+    height: fit-content;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(108, 108, 206);
+
+}
+
+nav ul {
+    margin: 0 auto;
+    width:fit-content ;
+    display: flex;
+    align-items: center;
+    gap: 1 rem;
+    padding: 0 2 rem;
+   
+}
+
+nav ul li {
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+nav img {
+    width: 5vw;
+    margin: 3vw;
+    height: auto;
+    justify-self: center;
+}
+
+nav span {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+}
+
+#formulario_mensagem {
+    display: flex;
+    flex-direction: column;
+}
+
+.campos_form {
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    height: auto;
+    margin: 1vw;
+}
+
+.campos_form input {
+    display: flex;
+    align-items: center;
+    width: 12vw;
+    height: auto;
+    margin: 1vw;
+}
+
+footer {
+    bottom: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: auto;
+    width: auto;
+
+}
+
+footer img {
+    width: 5vw;
+    height: auto;
+}
+
+footer p {
+   
+    width: 5vw;
+    color: yellow;
+    text-decoration: none;
+    width: 20vw;
+}
