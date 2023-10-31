@@ -1,19 +1,16 @@
 body {
-    height: 100vh;
-    margin: 0;
-    font-family: Arial;
-    
+    width: 80vw;
+    height: 0 auto;
+    margin-left: 10vw;
+    margin-right: 10vw;    
 }
 
 nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: auto;
     background-color: rgb(108, 108, 206);
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 0%;
-
 }
 
 nav img {
@@ -93,6 +90,7 @@ h1 {
 
 h3 {
     text-align: center;
+    color: black;
 }
 
 #video {
@@ -118,10 +116,7 @@ footer {
     flex-direction: column;
     color: rgb(202, 202, 56);
     margin: 0%;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80vw;
-    height:20vh;
+    
 }
 
 .redes_sociais {
@@ -144,5 +139,6 @@ footer img {
 }
 
 footer p {
+    color: yellow;
     font-size: 1vw;
 }
