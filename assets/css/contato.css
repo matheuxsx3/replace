@@ -60,32 +60,6 @@ nav span {
     align-items: center;
 }
 
-main {
-    color: black;
-    display: flex;
-}
-
-#formulario_mensagem {
-    display: flex;
-    flex-direction: column;
-}
-
-.campos_form {
-    display: flex;
-    flex-direction: column;
-    width: 12vw;
-    height: auto;
-    margin: 1vw;
-}
-
-.campos_form input {
-    display: flex;
-    align-items: center;
-    width: 12vw;
-    height: auto;
-    margin: 1vw;
-}
-
 footer {
     bottom: auto;
     display: flex;
@@ -111,4 +85,76 @@ footer p {
     color: yellow;
     text-decoration: none;
     width: 20vw;
+}
+
+
+
+
+main{
+display: flex;
+justify-content: space-around;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #333;
+}
+
+.campos-form {
+    margin-bottom: 20px;
+}
+
+label {
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    textarea {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 15px 25px;
+    }
+
 }
